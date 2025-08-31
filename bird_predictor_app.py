@@ -8,8 +8,7 @@ st.title("🐦 Bird Species Classifier")
 
 @st.cache_resource
 def load_my_model():
-    return load_model("bird_species_classifier_new.keras", compile=False)
-
+    return load_model("bird_species_classifier.h5")
 
 model = load_my_model()
 
