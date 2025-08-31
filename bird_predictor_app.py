@@ -1,4 +1,4 @@
-
+# ⬇️ paste the entire Streamlit code here ⬇️
 import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -8,7 +8,8 @@ st.title("🐦 Bird Species Classifier")
 
 @st.cache_resource
 def load_my_model():
-    return load_model("bird_species_classifier_new.keras")
+    return load_model("bird_species_classifier_new.keras", compile=False)
+
 
 model = load_my_model()
 
