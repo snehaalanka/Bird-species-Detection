@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Dataset Structure
+##  Dataset Structure
 Your project folder should look like this:
 ```
 Bird-species-Detection/
@@ -71,7 +71,7 @@ Bird-species-Detection/
 
 ---
 
-## 🧩 Running the Model (Jupyter Notebook)
+## Running the Model (Jupyter Notebook)
 To train or retrain the model:
 ```bash
 jupyter notebook
@@ -80,7 +80,7 @@ Open your notebook (if available) and run all cells to train and save the model.
 
 ---
 
-## 🌐 Running the Streamlit Web App
+##  Running the Streamlit Web App
 Once your environment is ready and the model is available, start the web app:
 ```bash
 streamlit run bird_predictor_app.py
@@ -90,7 +90,7 @@ This will open the app in your default browser, allowing you to upload bird imag
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 The main libraries used are:
 - `tensorflow`
 - `keras`
