@@ -29,7 +29,7 @@ Follow these steps to set up and run the project locally.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/Bird-species-Detection.git
+git clone https://github.com/snehaalanka/Bird-species-Detection
 cd Bird-species-Detection
 ```
 
